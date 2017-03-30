@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Exam List</title>
+    <title>Add Slot</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -143,36 +143,29 @@
                                     </p>
                                     <div class="progress progress-striped active">
                                         <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete (warning)</span>
-                                        </div>
-                                    </div>
+                                            <span class="sr-only">60% Complete (warning)</s  <!-- Panel 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-shopping-cart fa-5x"></i>
                                 </div>
-                            </a>
-                        </li>
-
-                        <!-- Panel 3 -->
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel panel-yellow">
-                                <div class="panel-heading">
-                                    <div class="row">
-                                        <div class="col-xs-3">
-                                            <i class="fa fa-shopping-cart fa-5x"></i>
-                                        </div>
-                                        <div class="col-xs-9 text-right">
-                                            <div class="huge">124</div>
-                                            <div>New Orders!</div>
-                                        </div>
-                                    </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">124</div>
+                                    <div>New Orders!</div>
                                 </div>
-                                <a href="#">
-                                    <div class="panel-footer">
-                                        <span class="pull-left">View Details</span>
-                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </a>
                             </div>
                         </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                            <div class="clearfix"></div>
+                                        </div>
+                            </a>
+                            </div>
+                            </div>
     </div>
     </div>
     </div>
@@ -213,7 +206,7 @@
             <li>
                 <a href="#">
                     <div>
-                        <i class="fa fa-book fa-fw"></i> New Comment
+                        <i class="fa fa-comment fa-fw"></i> New Comment
                         <span class="pull-right text-muted small">4 minutes ago</span>
                     </div>
                 </a>
@@ -372,197 +365,92 @@
     <!-- End of sidenav -->
 
 
-
     <!-- Main Body -->
     <div id="page-wrapper">
         <div class="row">
-            <div class="col-md-8">
-                <h1 class="page-header">Exam List</h1>
+            <div class="col-md-12">
+                <h1 class="page-header">Add Slot</h1>
             </div>
-            <div class="col-md-4">
-                <a href="../Hackathon_template/exam_entry.html">
-                    <button id="add_exam" style="margin-top: 40px; " class=" btn btn-success ">Add Exam</button>
-                </a>
-            </div>
+
             <!-- /.col-lg-12 -->
         </div>
-        <!-- /.row -->
 
 
+        <form class="form-horizontal" style="padding:20px;">
+            <fieldset>
+                <!-- Form Name -->
+                <!--<legend>Exam Entry</legend>-->
 
-        <!-- 1st row for panel-->
-        <div class="row ">
-            <!-- Panel 1 -->
-            <div class="col-lg-3 col-md-6 ">
-                <div class="panel panel-primary ">
-                    <a href="slotDetails.html">
-                        <div class="panel-heading ">
-                            <div class="row ">
-                                <div class="col-xs-3 ">
-                                    <i class="fa fa-book fa-5x "></i>
-                                </div>
-                                <div class="col-xs-9 text-right ">
-                                    <div class="huge ">1</div>
-                                    <div>Exam Name</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="examSlot.html">
-                        <div class="panel-footer ">
-                            <span class="pull-left ">View Details</span>
-                            <span class="pull-right "><i class="fa fa-arrow-circle-right "></i></span>
-                            <div class="clearfix "></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-            <!-- Panel 2 -->
-            <div class="col-lg-3 col-md-6 ">
-                <div class="panel panel-green ">
-                    <div class="panel-heading ">
-                        <div class="row ">
-                            <div class="col-xs-3 ">
-                                <i class="fa fa-book fa-5x "></i>
-                            </div>
-                            <div class="col-xs-9 text-right ">
-                                <div class="huge ">2</div>
-                                <div>Exam Name</div>
-                            </div>
-                        </div>
+                <!-- Exam Name -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="exam name">Date</label>
+                    <div class="col-md-6">
+                        <input id="date" type="date" name="date" placeholder="Enter  date" class="form-control input-md" required="">
                     </div>
-                    <a href="# ">
-                        <div class="panel-footer ">
-                            <span class="pull-left ">View Details</span>
-                            <span class="pull-right "><i class="fa fa-arrow-circle-right "></i></span>
-                            <div class="clearfix "></div>
-                        </div>
-                    </a>
                 </div>
-            </div>
 
-            <!-- Panel 3 -->
-            <div class="col-lg-3 col-md-6 ">
-                <div class="panel panel-yellow ">
-                    <div class="panel-heading ">
-                        <div class="row ">
-                            <div class="col-xs-3 ">
-                                <i class="fa fa-book fa-5x "></i>
-                            </div>
-                            <div class="col-xs-9 text-right ">
-                                <div class="huge ">3</div>
-                                <div>Exam Name</div>
-                            </div>
-                        </div>
+
+
+
+                <!-- Registration Start Date-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="time">Time </label>
+                    <div class="col-md-6">
+                        <input id="time" name="time" type="time" placeholder="time" class="form-control input-md" required="">
                     </div>
-                    <a href="# ">
-                        <div class="panel-footer ">
-                            <span class="pull-left ">View Details</span>
-                            <span class="pull-right "><i class="fa fa-arrow-circle-right "></i></span>
-                            <div class="clearfix "></div>
-                        </div>
-                    </a>
                 </div>
-            </div>
-        </div>
-        <!-- End of row-->
 
-        <div class="row ">
-            <!-- 2nd Row for  panel -->
-            <div class="row ">
-                <div class="col-lg-12 ">
-                    <h1 class="page-header "></h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-
-
-            <!-- Panel 1 -->
-            <div class="col-lg-3 col-md-6 ">
-                <div class="panel panel-primary ">
-                    <div class="panel-heading ">
-                        <div class="row ">
-                            <div class="col-xs-3 ">
-                                <i class="fa fa-book fa-5x "></i>
-                            </div>
-                            <div class="col-xs-9 text-right ">
-                                <div class="huge ">4</div>
-                                <div>Exam Name</div>
-                            </div>
-                        </div>
+                <!-- Exam Name -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="date">Date</label>
+                    <div class="col-md-6">
+                        <input id="date" type="date" name="date" placeholder="Enter  date" class="form-control input-md" required="">
                     </div>
-                    <a href="# ">
-                        <div class="panel-footer ">
-                            <span class="pull-left ">View Details</span>
-                            <span class="pull-right "><i class="fa fa-arrow-circle-right "></i></span>
-                            <div class="clearfix "></div>
-                        </div>
-                    </a>
                 </div>
-            </div>
 
 
-            <!-- Panel 2 -->
-            <div class="col-lg-3 col-md-6 ">
-                <div class="panel panel-green ">
-                    <div class="panel-heading ">
-                        <div class="row ">
-                            <div class="col-xs-3 ">
-                                <i class="fa fa-book fa-5x "></i>
-                            </div>
-                            <div class="col-xs-9 text-right ">
-                                <div class="huge ">5</div>
-                                <div>Exam Name</div>
-                            </div>
-                        </div>
+
+
+                <!-- Registration Start Date-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="registration_date">Time </label>
+                    <div class="col-md-6">
+                        <input id="time" name="time" type="time" placeholder="time" class="form-control input-md" required="">
                     </div>
-                    <a href="# ">
-                        <div class="panel-footer ">
-                            <span class="pull-left ">View Details</span>
-                            <span class="pull-right "><i class="fa fa-arrow-circle-right "></i></span>
-                            <div class="clearfix "></div>
-                        </div>
-                    </a>
                 </div>
-            </div>
 
-            <!-- Panel 3 -->
-            <div class="col-lg-3 col-md-6 ">
-                <div class="panel panel-yellow ">
-                    <div class="panel-heading ">
-                        <div class="row ">
-                            <div class="col-xs-3 ">
-                                <i class="fa fa-book fa-5x "></i>
-                            </div>
-                            <div class="col-xs-9 text-right ">
-                                <div class="huge ">6</div>
-                                <div>Exam Name</div>
-                            </div>
-                        </div>
+                <!--Submit Button-->
+                <!--Submit Button-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="submit"></label>
+                    <div class="col-md-4">
+                        <button id="submit" name="submit" class="btn btn-success">Submit</button>
                     </div>
-                    <a href="# ">
-                        <div class="panel-footer ">
-                            <span class="pull-left ">View Details</span>
-                            <span class="pull-right "><i class="fa fa-arrow-circle-right "></i></span>
-                            <div class="clearfix "></div>
-                        </div>
-                    </a>
                 </div>
-            </div>
-        </div>
-        <!-- End of 2nd row-->
-        <div class="col-md-4">
-            <button id="add_exam" style="margin-top: 40px; " class=" btn btn-success ">Add Exam</button>
-        </div>
+
+
+            </fieldset>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
     </div>
-    <!--End of wrapper-->
+    <!-- End of 2nd row-->
+
+
 
 
 
